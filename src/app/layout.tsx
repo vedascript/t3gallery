@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`flex flex-col gap-6 font-sans ${inter.variable}`}>
+      <body className={`flex flex-col gap-6 p-5 font-sans ${inter.variable}`}>
         <TopNav />
         {children}
       </body>
